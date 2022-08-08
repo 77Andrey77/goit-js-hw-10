@@ -1,0 +1,29 @@
+{
+  "name": "goit-js-hw-10",
+  "version": "1.0.0",
+  "description": "npm",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "parcel src/index.html --open chrome",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-10/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/77Andrey77/goit-js-hw-10.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/77Andrey77/goit-js-hw-10/issues"
+  },
+  "homepage": "https://77Andrey77.github.io/goit-js-hw-10",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  }
+}
