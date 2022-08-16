@@ -1,7 +1,12 @@
-const Handlebars = require("handlebars");
-const template = Handlebars.compile("Name: {{name}}");
-console.log(template({ name: "Nils" }));
+// import menu from './menu.json';
+// import menuTemplate from './templates/menu-cards.hbs'
 
+////////////////////////////////////////////////
+
+// const galleryMenu = document.querySelector('.js-menu');
+// const markup = menuTemplate(menu);
+
+// galleryMenu.insertAdjacentHTML('beforeend', markup);
 
 ////////////////////////////////////////////////
 const bodyEl = document.querySelector('body')
@@ -11,6 +16,8 @@ const Theme = {
   LIGHT: 'light-theme',
   DARK: 'dark-theme',
 };
+////////////////////////////////////////////////////////
+
 
 /////////////меняем тему/////////////////////////////////
 checkboxEl.addEventListener('change', onClickToggle);
