@@ -1,4 +1,9 @@
+const Handlebars = require("handlebars");
+const template = Handlebars.compile("Name: {{name}}");
+console.log(template({ name: "Nils" }));
 
+
+////////////////////////////////////////////////
 const bodyEl = document.querySelector('body')
 const checkboxEl = document.querySelector('#theme-switch-toggle');
 
