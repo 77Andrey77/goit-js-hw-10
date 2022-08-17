@@ -20,12 +20,12 @@
   },
   "homepage": "https://77Andrey77.github.io/goit-js-hw-10",
   "devDependencies": {
-    "parcel": "^2.7.0"
+    "parcel": "^2.7.0",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
   },
   "dependencies": {
     "gh-pages": "^4.0.0",
     "handlebars": "^4.7.7",
-    "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-plugin-nuke-dist": "^1.0.1"
   }
 }
